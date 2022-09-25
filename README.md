@@ -25,7 +25,7 @@ This portfolio was created with React.
 
 
 ## Instructions
-
+<a href='https://chris-hong-portfolio.herokuapp.com/'>Deployed link</a>
 
 ### Installation
 Use this command line to clone this repo before running the program:
