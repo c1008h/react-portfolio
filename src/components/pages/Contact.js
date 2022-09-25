@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/index.css'
 // import ReactDOM from 'react-dom/client'
 
 export default function Contact() {
@@ -26,39 +27,56 @@ export default function Contact() {
   }
   
   return (
-    <div className="col-12">
-      <h1>Contact Page</h1>
-      <form onSubmit={handleSubmit} className='col-12'>
-        <label className="col-12">Name:
-          <input 
-          className="col-6"
-          type='text' 
-          placeholder='name'
+  <div className="container py-4">
+
+    <form id="contactForm" onSubmit={handleSubmit}>
+
+      {/* <!-- Name input --> */}
+      <div className="mb-3">
+        <label className="form-label" for="name">Name</label>
+        <input 
+          className="form-control" 
+          id="name" 
+          type="text" 
+          placeholder="Name" 
           value={name}
           onChange={(e) => setName (e.target.value)}
-          />
-        </label>
-        <label className="col-12">Email:
-          <input 
-          className="col-6"
-          type='text' 
-          placeholder='email'
+        />
+      </div>
+
+      {/* <!-- Email address input --> */}
+      <div className="mb-3">
+        <label className="form-label" for="emailAddress">Email Address</label>
+        <input 
+          className="form-control" 
+          id="emailAddress" 
+          type="email" 
+          placeholder="Email Address" 
           value={email}
           onChange={(e) => setEmail (e.target.value)}
-          />
-        </label>
-        <label className="col-12">Message:
-          <input 
-          className="col-6"
-          type='text' 
+        />
+      </div>
+
+      {/* <!-- Message input --> */}
+      <div className="mb-3">
+        <label className="form-label" for="message">Message</label>
+        <textarea className="form-control" 
+          id="message" 
+          type="text" 
+          placeholder="Message" 
+          style={{height: '10rem'}}
           value={message}
           onChange={(e) => setMessage (e.target.value)}
-          />
-        </label>
-        <input type='submit'/>
-      </form>
-    </div>
+        ></textarea>
+      </div>
+
+      {/* <!-- Form submit button --> */}
+      <div className="d-grid">
+        <button className="btn btn-primary btn-lg" type="submit">Submit</button>
+      </div>
+
+    </form>
+
+  </div>
   );
 }
-// const root = ReactDOM.createRoot(document.getElementById('root'))
-// root.render(<Contact/>)

@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "DogHub",
-    subtitle: "Handlebars, JavaScript, NoSQL, HTML, and CSS",
+    subtitle: "Handlebars & REST",
     description:
       "An app that is used to find your dog a suitable friend.",
     image: "/images/doghub.png",
@@ -27,13 +27,13 @@ export const projects = [
     link: "https://bricks-repo.herokuapp.com/",
   },
   {
-    title: "E-Com Backend",
-    subtitle: "JavaScript, Node.js, MySQL, and Express",
+    title: "E-Commerance",
+    subtitle: "Node, MySql & Express",
     description:
       "A backend of an e-commerce store that is used to store data from categories, products, and tags",
     image: "/images/ecombackend.png",
     github:'https://github.com/c1008h/E-Commerce-Backend',
-    link: "",
+    link: "https://github.com/c1008h/E-Commerce-Backend",
   },
   {
     title: "Note Taker",
@@ -42,15 +42,15 @@ export const projects = [
       "An application that allows users to add notes, edit notes, and delete notes",
     image: "/images/notetaker.png",
     github:'https://github.com/c1008h/Note-Taker',
-    link: "",
+    link: "https://github.com/c1008h/Note-Taker",
   },
   {
-    title: "Team Profile Generator",
-    subtitle: "JavaScript, Node.js, Inquirer and Express",
+    title: "Employee Profile",
+    subtitle: "JavaScript, Node.js & Express",
     description:
       "An application to keep track of employees within a company by answering questions in the terminal and render it onto the web",
-    image: "/images/notetaker.png",
+    image: "/images/teamprofilegenerator.png",
     github:'https://github.com/c1008h/team-profile-generator',
-    link: "",
+    link: "https://github.com/c1008h/team-profile-generator",
   }
 ];

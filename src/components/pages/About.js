@@ -1,13 +1,9 @@
 import React from 'react';
-// import { picofme } from "../../aboutme"
 import '../styles/index.css'
 
 export default function About() {
   return (
     <div>
-      <section>
-        <h1>About</h1>
-      </section>
       <div className='row'>
         <div className='col-4'>
           <img
@@ -18,6 +14,7 @@ export default function About() {
           />
         </div>
         <div className='col-6'> 
+        <h3>About</h3>
           <p>
           Full-Stack developer with a strong background in customer service to deliver satisfaction through simplifying complex applications. 
           Earned a certificate in Full Stack Web Development from the University of Washington Coding Boot Camp with hands-on experience in HTML, CSS, JavaScript, React, and jQuery. 
