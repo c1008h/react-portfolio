@@ -3,7 +3,7 @@
 
 
 ## Description
-This NodeJS application uses object-oriented programming to allow users to quickly generate profiles for the work team.
+This portfolio was created with React.
 ### Created with:
 - <a href='https://javascript.info/'>JavaScript</a>
 - <a href='https://nodejs.org/en/'>Node JS</a>
