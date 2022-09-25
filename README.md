@@ -1,5 +1,6 @@
 # React-Portfolio
 
+<img width="1609" alt="react_portfolio" src="https://user-images.githubusercontent.com/102135325/192127360-20e79502-369e-42fe-b28a-3a0f0c927e99.png">
 
 
 ## Description
