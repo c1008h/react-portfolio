@@ -1,11 +1,12 @@
 import React from 'react';
+import './styles/header.css'
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Header({ currentPage, handlePageChange }) {
   return (
     <div className='row'
-      style={{height: '200px', width:'auto', backgroundColor:'gray'}}
+      style={{height: '150px', width:'auto', backgroundColor:'gray'}}
     >
       <div 
         className='col-4'

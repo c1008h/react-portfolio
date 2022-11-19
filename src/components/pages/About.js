@@ -5,16 +5,17 @@ export default function About() {
   return (
     <div>
       <div className='row'>
-        <div className='col-4'>
+        <div className='col-md-4 col-xlg-12'>
           <img
             id='picofme'
             alt="picofme"
             //className="absolute inset-0 w-full h-full object-cover object-center col-6"
             src='/images/picofme.png'
+            style = {{marginLeft:'20px'}}
           />
         </div>
-        <div className='col-6'> 
-        <h3>About</h3>
+        <div className='col-md-6 col-xlg-12'> 
+          <h3>About</h3>
           <p>
           Full-Stack developer with a strong background in customer service to deliver satisfaction through simplifying complex applications. 
           Earned a certificate in Full Stack Web Development from the University of Washington Coding Boot Camp with hands-on experience in HTML, CSS, JavaScript, React, and jQuery. 

@@ -8,11 +8,11 @@
   cursor: pointer;
 }
 
-.name {
+/* .name {
   font-size: 25px;
   text-align: center;
 
-}
+} */
 .linkedin {
   width: 30px;
   height: auto;
@@ -56,9 +56,10 @@ a:hover {
 
 #picofme {
   opacity: 0.8;
-  width:350px;
+  width:340px;
   height:auto;
   border-radius:50%;
+  margin-top: 20px;
 }
 
 #footer {
