@@ -11,7 +11,10 @@ function Header({ currentPage, handlePageChange }) {
       <div 
         className='col-4'
       >
-        <h1><a href='#about' style={{color:'whitesmoke', textDecoration: 'none'}} className='name' >Chris Hong</a></h1>
+        <h1>
+          <a href='#about' className='name col-12'
+          style={{color:'whitesmoke', textDecoration: 'none'}}>Chris Hong</a>
+        </h1>
       </div>
       <div className='col-8'>
         <ul className="nav">
